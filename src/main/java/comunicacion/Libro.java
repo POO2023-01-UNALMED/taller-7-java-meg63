@@ -37,11 +37,11 @@ public class Libro extends Escrito {
 		this.interpretacion = interpretacion;
 	}
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*2;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return this.getInterpretacion();
 	}
 	@Override

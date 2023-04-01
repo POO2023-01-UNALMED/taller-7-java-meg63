@@ -20,12 +20,12 @@ public class Tesis extends Escrito {
 	
 
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*5;
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return this.getInterpretacion();
 	}
 
